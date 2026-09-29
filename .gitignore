@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / local configuration
+.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Runtime data
+data/input/*
+data/output/*
+
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# Confidential evaluation data
+evaluation/references/*
+evaluation/results/*
+
+!evaluation/references/.gitkeep
+!evaluation/results/.gitkeep
+
+# Generated evaluation / external tool artifacts
+separated/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

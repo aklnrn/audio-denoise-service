@@ -1,0 +1,36 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+
+# Runtime data
+data/input/*
+data/output/*
+
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# Confidential evaluation data
+evaluation/references/*
+evaluation/results/*
+
+!evaluation/references/.gitkeep
+!evaluation/results/.gitkeep
+
+# Generated Demucs output
+separated/
+
+# IDE
+.vscode/
+.idea/
